@@ -14,3 +14,51 @@ namespace DynamicBinding // Note: actual namespace depends on the project name.
         }
     }
 }
+
+
+/*
+ 
+Programming languages are divided into two types —
+
+statically-typed languages and dynamically-typed languages.
+
+Or in short, we can say static languages or dynamic languages.
+
+Examples of static languages are C# and Java.
+
+Dynamic languages are like Ruby,
+
+Javascript, Python, and so on.
+
+
+
+Type Resolution
+
+
+But what's the difference?
+
+The difference is in static languages — resolution of types,
+
+members, properties, methods is done at compile-time.
+
+So if we try to access a method that is not defined in an object,
+
+when we compile the application,
+
+we are getting an immediate feedback that's telling us
+
+that method or property is not found on that object.
+
+With dynamic languages — the resolution of types,
+
+properties, members, methods is done at run-time.
+
+But what's the benefit of that?
+
+First, I'm not an expert in programming languages,
+
+but based on my understanding,
+
+dynamic languages are a little bit easier and faster to write code with.
+
+ */
