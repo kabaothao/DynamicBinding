@@ -6,11 +6,29 @@ namespace DynamicBinding // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            object obj = "Mosh";
-            //obj.GethashCode()
+            //object obj = "Mosh";
+            ////obj.GethashCode()
 
-            var methodInfo = obj.GetType().GetMethod("GetHashCode");
-            methodInfo.Invoke(null, null);
+            //var methodInfo = obj.GetType().GetMethod("GetHashCode");
+            //methodInfo.Invoke(null, null);
+
+            //// with dynamic, the code would end up like this below:
+            //dynamic excelObject = "mosh";
+            //excelObject.Optimize();
+
+
+            //dynamic name = "Mosh";
+            //name = 10;
+
+
+            dynamic a = 10;
+            dynamic b = 5;
+            var c = a + b;
+
+            // So when you use dynamic variables in an expression, the expression will end up being dynamic as well.
+
+
+
         }
     }
 }
@@ -66,4 +84,15 @@ Reflection is a way to inspect the metadata about the type,
 
 and access properties and methods.
 
+
+
+You should be familiar with CLR or Common Language Runtime.
+
+It's a .NET's virtual machine that gets your compiled code which is in intermediate language, which is I_L.
+
+Then, converts that or recompose that into machine code at runtime. In.NET Framework version four,
+
+they added a new component called DLR, which is a Dynamic Language Runtime.
+
+So DLR sits on top of CLR, and gives dynamic language capabilities to C#.
  */
