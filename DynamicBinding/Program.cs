@@ -21,11 +21,21 @@ namespace DynamicBinding // Note: actual namespace depends on the project name.
             //name = 10;
 
 
-            dynamic a = 10;
-            dynamic b = 5;
-            var c = a + b;
-
             // So when you use dynamic variables in an expression, the expression will end up being dynamic as well.
+
+
+            //dynamic a = 10;
+            //dynamic b = 5;
+            //var c = a + b;
+
+
+
+            //One more thing you need to know about dynamics is conversions or casts. Most often, with dynamics, you get implicit conversion from and to the target type.
+
+            int i = 5;
+            dynamic d = i;
+            long l = d;
+
 
 
 
