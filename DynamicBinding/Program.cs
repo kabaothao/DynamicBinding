@@ -55,10 +55,15 @@ properties, members, methods is done at run-time.
 
 But what's the benefit of that?
 
-First, I'm not an expert in programming languages,
 
-but based on my understanding,
+- dynamic languages are a little bit easier and faster to write code with.
 
-dynamic languages are a little bit easier and faster to write code with.
+Without dynamics, you have to use reflection.
+
+What is reflection?
+
+Reflection is a way to inspect the metadata about the type,
+
+and access properties and methods.
 
  */
